@@ -1,0 +1,6 @@
+CREATE TABLE billing (
+    bill_id INT AUTO_INCREMENT PRIMARY KEY,
+    patient_id INT NOT NULL,
+    amount DOUBLE NOT NULL,
+    bill_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
